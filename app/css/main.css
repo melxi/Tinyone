@@ -10,7 +10,7 @@
   height: 6528px;
   opacity: 0.4;
   z-index: 10;
-  /* display: none; */
+  display: none;
 }
 
 * {
@@ -248,4 +248,78 @@ p.top {
 .pricing-item__period {
   font-size: 1.6rem;
   padding-bottom: 4rem;
+}
+
+/* Work section */
+.works {
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+.work-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.work-item {
+  text-align: center;
+}
+
+.work-item__main {
+  position: relative;
+}
+
+.work-item__main img {
+  display: block;
+}
+
+.work-item__main-details {
+  position: absolute;
+  font-size: 1.4rem;
+  color: #fff;
+  width: 100%;
+  padding: 0 1rem;
+  bottom: 2rem;
+  z-index: 10;
+}
+
+.work-item__main-views {
+  float: left;
+}
+
+.work-item__main-date {
+  float: right;
+}
+
+.work-item__main-add {
+  position: absolute;
+  width: 100%;
+  font-size: 4rem;
+  color: #fff;
+  background-color: #000;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 9rem;
+  visibility: hidden;
+  opacity: 0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.work-item__main:hover .work-item__main-add {
+  visibility: visible;
+  opacity: 1;
+}
+
+.work-item h3 {
+  color: #010101;
+  font-size: 2.2rem;
+  margin-top: 1.7rem;
+}
+
+.work-item p {
+  font-size: 1.6rem;
+  padding-bottom: 65px;
 }
