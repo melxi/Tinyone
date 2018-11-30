@@ -364,3 +364,35 @@ p.top {
   color: #010101;
   margin: 0 4px;
 }
+
+/* Stats section */
+.stats {
+  padding-top: 7rem;
+  padding-bottom: 10rem;
+}
+
+.stats-items {
+  display: flex;
+  justify-content: center;
+}
+
+.stats-item {
+  text-align: center;
+  flex: 0 0 17%;
+}
+
+.stats-item i {
+  color: #010101;
+  font-size: 5rem;
+}
+
+.stats-item .counter {
+  font-size: 2.4rem;
+  color: #010101;
+  margin-top: 1.5rem;
+}
+
+.stats-item p {
+  font-size: 1.4rem;
+  padding-bottom: 1rem;
+}
