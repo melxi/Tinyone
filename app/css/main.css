@@ -28,6 +28,8 @@ body {
 
 .container {
   width: 960px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -368,7 +370,7 @@ p.top {
 /* Stats section */
 .stats {
   padding-top: 7rem;
-  padding-bottom: 10rem;
+  padding-bottom: 4rem;
 }
 
 .stats-items {
@@ -395,4 +397,64 @@ p.top {
 .stats-item p {
   font-size: 1.4rem;
   padding-bottom: 1rem;
+}
+
+/* Testimonials section */
+.testimonials {
+  padding-bottom: 16.5rem;
+}
+
+.testimonials-quote {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.testimonials-quote {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+.testimonials-quote img {
+  width: 11%;
+}
+
+.testimonials-quote h3 {
+  font-size: 2.2rem;
+  color: #010101;
+  margin-top: 1rem;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.testimonials span {
+  display: block;
+  font-size: 1.6rem;
+  margin-bottom: 2.5rem;
+}
+
+.testimonials-quote p {
+  display: inline-block;
+  font-size: 2rem;
+  color: #898989;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.testimonials-quote .leftone {
+  position: relative;
+  text-align: left;
+  top: -45px;
+  left: 30px;
+  font-size: 2rem;
+  color: #010101;
+  padding-right: 8rem;
+}
+
+.testimonials-quote .rightone {
+  position: relative;
+  text-align: right;
+  right: -42px;
+  font-size: 2rem;
+  color: #010101;
 }
