@@ -10,7 +10,7 @@
   height: 6528px;
   opacity: 0.4;
   z-index: 10;
-  /* display: none; */
+  display: none;
 }
 
 * {
@@ -461,7 +461,7 @@ p.top {
 
 /* Contact section */
 .contact {
-  padding-bottom: 7.5rem;
+  padding-bottom: 5.5rem;
 }
 
 .contact-info {
@@ -537,4 +537,99 @@ p.top {
   background: #fcdb00;
   color: #010101;
   transition: all 0.5s;
+}
+
+.footer {
+  padding-top: 9rem;
+  padding-bottom: 28rem;
+  background: #000;
+  text-align: center;
+  color: #fff;
+}
+
+.footer h2 {
+  color: #fff;
+}
+
+.footer .top {
+  margin-bottom: 4rem;
+}
+
+.msg {
+  max-width: 740px;
+  width: 100%;
+  display: block;
+  margin: 0 auto 110px;
+}
+
+.footer input[type="email"] {
+  width: 78%;
+  background: #fff;
+  border: 0;
+  padding: 1.3rem;
+  outline: 0;
+  height: 5.1rem;
+}
+
+.footer input[type="submit"] {
+  width: 13.5rem;
+  margin-left: 1rem;
+  background: #fff;
+  border: 0;
+  outline: 0;
+  height: 5.2rem;
+  line-height: 4.9rem;
+  color: #010101;
+  font-weight: 700;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+}
+
+.footer input[type="submit"]:hover {
+  background: #fcdb00;
+}
+
+.footer-nav {
+  display: flex;
+}
+
+.footer-address address {
+  padding-left: 1rem;
+  text-align: left;
+  font-family: "Source Sans Pro", sans-serif;
+  display: block;
+  color: #fff;
+  font-size: 1.6rem;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.footer-address a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 15rem;
+}
+
+.footer-nav__links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav__links ul {
+  text-align: left;
+  list-style-type: none;
+  flex: 0 0 16rem;
+}
+
+.footer-nav__links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.6rem;
+  transition: all 0.2s ease;
+}
+
+.footer-nav__links a:hover {
+  color: #fcdb00;
 }
